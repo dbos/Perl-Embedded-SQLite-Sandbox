@@ -1,4 +1,9 @@
 #!/usr/bin/perl -wT
+#Author: Danny O'Sullivan
+#Description: Nothing much to see here, just creates a db called test.db,
+#	makes three fields with no extra configuration, fills them, and
+#	then does a select on it. It just dumps the result after. 
+
 use strict;
 use warnings;
 use DBI;
